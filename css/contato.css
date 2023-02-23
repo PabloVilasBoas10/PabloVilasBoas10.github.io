@@ -1,0 +1,147 @@
+.contato {
+  background: #1e1e1e;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.contato h1 {
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.contato h1:hover {
+  color: #7a3ec5;
+}
+
+.contato-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.contato-descricao {
+  grid-column: 1;
+  max-width: 50ch;
+  color: #fff;
+  padding: 20px;
+  line-height: 1.5;
+  /* font-weight: bold; */
+  font-size: 2rem;
+}
+
+.contato-redes {
+  background: #000;
+  /* padding: 80px; */
+  grid-column: 2;
+  width: 80%;
+  justify-content: center;
+}
+
+.redes-sociais {
+  font-size: 1.5rem;
+  /* padding: 1px; */
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+
+.contato-redes .redes-titulo {
+  text-align: center;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 2px solid #7a3ec5;
+  text-transform: uppercase;
+}
+
+.contato-redes .redes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+  margin: auto;
+  /* align-items: center; */
+}
+
+.contato-redes .redes img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.redes div {
+  padding: 10px;
+}
+
+@media (max-width: 950px) {
+  .contato-grid {
+    display: block;
+  }
+
+  .contato-descricao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.6;
+  }
+
+  .contato-redes {
+    display: block;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    /* justify-content: center; */
+  }
+}
+
+@media (max-width: 600px) {
+  .contato {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .contato h1 {
+    font-size: 1.6rem;
+  }
+  .contato-redes {
+    background: none;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+
+  .contato-redes .redes-titulo {
+    display: none;
+  }
+
+  .contato-redes .redes {
+    display: flex;
+    margin: auto;
+  }
+
+  .contato-redes .redes img {
+    width: 40px;
+    max-width: 40px;
+  }
+
+  .redes-sociais {
+    display: block;
+    text-align: center;
+  }
+
+  .redes-sociais img {
+    width: 20px;
+  }
+
+  .contato-descricao {
+    font-size: 1.3rem;
+  }
+}
