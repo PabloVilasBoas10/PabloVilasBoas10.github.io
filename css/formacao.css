@@ -1,0 +1,133 @@
+.formacao {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+.formacao h1 {
+  display: block;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+.formacao-descricao {
+  padding: 20px;
+  margin-top: 40px;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.formacao-descricao span {
+  color: #7a3ec5;
+}
+
+.formacao-extra {
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 30px;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.formacao-extra h3 {
+  position: relative;
+}
+
+.formacao-extra h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  /* left: -40px; */
+  top: 4px;
+}
+
+.cursos h3::before {
+  background: url("../img/cursos.svg") no-repeat;
+}
+
+.idiomas h3::before {
+  background: url("../img/idiomas.svg") no-repeat;
+}
+
+.formacao-extra ul {
+  list-style: none;
+}
+
+.formacao h3,
+span {
+  color: #7a3ec5;
+}
+
+.formacao .cursos,
+.formacao .idiomas {
+  /* height: 30vh; */
+  width: 60%;
+  margin: auto;
+  background: #1e1e1e;
+  padding: 5px 4px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.cursos h3,
+.idiomas h3 {
+  display: block;
+  padding: 10px 5px;
+  text-align: center;
+  border-bottom: 2px solid #7a3ec5;
+}
+
+.cursos li,
+.idiomas li {
+  padding: 20px 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .formacao-descricao {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 790px) {
+  .formacao-descricao {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .formacao-extra {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .formacao .cursos,
+  .formacao .idiomas {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .formacao {
+    padding-top: 20px;
+  }
+  .formacao h1 {
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 10px;
+  }
+}
