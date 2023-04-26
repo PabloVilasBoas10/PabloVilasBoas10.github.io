@@ -3,9 +3,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   justify-content: space-between;
   height: auto;
+}
+
+body {
+  font-family: "Open Sans";
 }
 
 .sobre h1 {
@@ -19,8 +23,6 @@
   cursor: pointer;
 }
 
-
-
 .sobre span {
   color: #7a3ec5;
 }
@@ -31,30 +33,20 @@
   padding: 40px 20px 40px 30px;
 }
 
-
 .sobre-mim p {
   margin-top: 0px;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
-.sobre-lista {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  justify-items: center;
-  width: 90%;
-  margin-right: 50px;
-}
-
-.sobre-lista ul {
+/* .img-joia ul {
   list-style: none;
   padding-bottom: 20px;
   padding-top: 20px;
-}
+} */
 
-.sobre-lista .tecnologias {
+/* .img-joia .tecnologias {
   grid-column: 1/-1;
   display: grid;
   background: #000000;
@@ -64,23 +56,23 @@
   margin-top: 0px;
   border-bottom: 2px solid #7a3ec5;
   cursor: pointer;
+} */
+
+.img-joia .tecnologias img {
+  max-width: 100%;
 }
 
-.tecnologias .sql, .r,.python{
-  width: 65px;
-}
-
-.sobre-lista li {
+/* .img-joia li {
   padding: 10px;
   place-items: center;
-}
+} */
 
-.tecnologias ul {
+/* .tecnologias ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+} */
 
-.sobre-lista .tecnologias h3 {
+/* .img-joia .tecnologias h3 {
   justify-self: center;
   margin-bottom: 20px;
   padding: 10px;
@@ -101,11 +93,7 @@
   position: absolute;
   left: 20px;
   top: 20px;
-}
-
-.tecnologias h3::before {
-  background: url("../img/stack.svg") no-repeat;
-}
+} */
 
 @media (max-width: 900px) {
   .sobre h1 {
@@ -130,25 +118,23 @@
     line-height: 1.5;
   }
 
-  .sobre-lista {
+  /* .img-joia {
     justify-items: end;
     align-items: end;
-  }
+  } */
 
-  .sobre-lista .tecnologias {
+  /* .img-joia .tecnologias {
     grid-column: 1/-1;
     background: #000000;
     width: 50vh;
     text-align: center;
     border-radius: 4px;
     margin-bottom: 20px;
-  }
+  } */
 
   .tecnologias h3::before {
     display: none;
   }
-
-  
 }
 
 @media (max-width: 830px) {
@@ -178,25 +164,8 @@
     margin-left: 20px;
   }
 
-  .sobre-lista {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    padding: 0;
-  }
-
-  .sobre-lista .tecnologias {
-    margin: auto;
-    display: block;
-    width: 90%;
-    text-align: center;
-    border-radius: 4px;
-    margin-bottom: 20px;
-  }
-
-  .sobre-lista .tecnologias ul{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  .img-joia {
+    display: none;
   }
 }
 
@@ -216,29 +185,8 @@
     /* padding: 15px 8px 15px 15px; */
   }
 
-
   .sobre-mim p {
     text-align: left;
     font-size: 1.2rem;
-  }
-
-  .sobre-lista {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    padding: 0;
-  }
-
-  .sobre-lista .tecnologias {
-    display: block;
-    width: 90%;
-    text-align: center;
-    border-radius: 4px;
-    margin-bottom: 20px;
-  }
-
-  .sobre-lista .tecnologias ul{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
   }
 }

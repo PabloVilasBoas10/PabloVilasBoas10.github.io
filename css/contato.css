@@ -5,7 +5,6 @@
   height: auto;
 }
 
-
 .contato h1 {
   color: #fff;
   text-align: center;
@@ -16,15 +15,13 @@
   cursor: pointer;
 }
 
-
-
 .contato-grid {
   display: block;
 }
 
 .contato-descricao {
   display: block;
-  text-align: center;  
+  text-align: center;
   color: #fff;
   padding: 20px;
   line-height: 1.5;
@@ -40,22 +37,19 @@
   margin: auto;
 }
 .contato-redes .redes-titulo {
-    display: none;
-  }
-
-  
+  display: none;
+}
 
 .redes-sociais {
   display: block;
   text-align: center;
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   color: #fff;
 }
 
 .redes-sociais img {
   width: 20px;
 }
-
 
 .contato-redes .redes-titulo {
   text-align: center;
@@ -73,8 +67,6 @@
   justify-content: center;
 }
 
-
-
 .contato-redes .redes img {
   display: block;
   margin: auto;
@@ -82,13 +74,9 @@
   max-width: 40px;
 }
 
-
-
 .redes div {
   padding: 10px;
 }
-
-
 
 @media (max-width: 850px) {
   .contato-grid {
@@ -103,7 +91,6 @@
     line-height: 1.6;
     font-size: 1.5rem;
   }
-  
 
   .contato-redes {
     display: block;
@@ -113,15 +100,12 @@
   }
 }
 
-
-
 @media (max-width: 790px) {
   .contato {
     padding-top: 20px;
     padding-bottom: 60px;
   }
 
-  
   .contato-redes {
     background: none;
     display: flex;
@@ -157,8 +141,8 @@
   }
 }
 
-@media (max-width: 500px){
-  .contato h1{
+@media (max-width: 500px) {
+  .contato h1 {
     font-size: 1.6rem;
   }
 }
