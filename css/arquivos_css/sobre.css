@@ -1,0 +1,55 @@
+main .sobre {
+  background: #566981;
+  padding: 20px;
+  max-width: 100%;
+}
+
+main .sobre h1 {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 3.75rem;
+}
+
+.sobre .descricao-sobre {
+  margin: 40px auto;
+  max-width: 40ch;
+  line-height: 1.2;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.sobre .descricao-sobre p div {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 930px) {
+  main .sobre h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 870px) {
+  main .sobre h1 {
+    font-size: 2.5rem;
+  }
+
+  .sobre .descricao-sobre {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .inicio {
+    display: block;
+    max-width: 100%;
+  }
+  .inicio .informacoes-inicio h1 {
+    display: block;
+    margin: 20px auto;
+    font-size: 2.5rem;
+  }
+}

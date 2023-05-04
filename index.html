@@ -4,14 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vilas</title>
-    <link rel="shortcut icon" href="img/v.png" type="image/x-icon" />
+    <title>site</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
     <header id="header">
-      <img id="logo" src="img/logo.svg" alt="" />
+      <p id="logo">PABLO</p>
 
       <nav id="nav">
         <button
@@ -25,178 +23,166 @@
         </button>
         <ul id="menu" role="menu">
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
 
-    <main id="sobre" class="sobre">
-      <h1>Sobre</h1>
-      <div class="sobre-mim">
-        <!-- <h2>
-          Desenvolvedor <br />
-          <span class="front-zoom">front-end</span>
-        </h2> -->
-        <section class="sobre-descricao">
-          <p>
-            Olá, me chamo Pablo e tenho 18 anos. Sou desenvolvedor Web e
-            Análista de Dados. Gosto de fazer análise de dados, automatizar
-            tarefas, criar sites e sistemas web.
-            <br />
-            Tenho conhecimento em <span>Front-end</span> e
-            <span>Análise de Dados</span>.
-            <br />
-            Tambem crio e desenvolvo projetos com
-            <span>HTML</span>, <span>CSS</span>, <span>JS</span>,
-            <span>Python</span>, <span>R</span> e <span>SQL</span>.
-          </p>
-        </section>
-      </div>
-      <section class="img-joia">
-        <div class="tecnologias">
-          <img src="img/joia.png" alt="" />
+    <section class="inicio" id="inicio">
+      <div class="informacoes-inicio">
+        <h1>
+          Olá, eu sou o <br />
+          Pablo
+        </h1>
+        <p>e sou um Desenvolvedor Web.</p>
+        <div class="contato">
+          <a href="https://www.linkedin.com/in/pablo-vilas-boas-508035210/"
+          target="_blank"> 
+            <img src="img/linkedin.png" alt="linkedin" />
+          </a>
+          
+          <a href="https://www.instagram.com/pablo.boas/?next=%2F"
+          target="_blank">
+            <img src="img/instagram.png" alt="instagram" />
+          </a>
+          
+          <a href="https://github.com/PabloVilasBoas10" target="_blank">
+             <img src="img/github.png" alt="github" />
+          </a>
         </div>
+      </div>
+
+      <div class="joia">
+        <img src="img/joia.png" alt="" />
+      </div>
+    </section>
+
+    <main>
+      <section class="sobre" id="sobre">
+        <h1>Quem sou eu?</h1>
+
+        <div class="descricao-sobre">
+          <p>
+            <div>Me chamo Pablo e sou Desenvolvedor Web.</div>
+             <br />
+            <div>
+              Conheci o mundo da programação em 2020, após entrar no ensino médio,
+              desde lá venho me aventurando nesse mundo cheio de infinitas
+              possibilidades.
+            </div>
+            <br />
+            <div>
+              Após experimentar e passar por várias tecnologias e linguagens, comecei a
+              estudar e desenvolver projetos Web onde permaneço até hoje.
+            </div>
+          </p>
+        </div>
+       
       </section>
     </main>
 
-    <section id="formacao" class="formacao">
-      <h1>FORMAÇÃO</h1>
-      <div class="formacao-descricao">
-        <p>
-          Sou formado em <span>Desenvolvimento de Sistemas</span> pela
-          <span>ETEC</span> e atualmente estou cursando
-          <span>Tecnologia da Informação</span> pela <span>UFMS</span>🎓. Além
-          disso me mantenho sempre atualizado com cursos intensivos online.
-        </p>
+    <section class="habilidades" id="habilidades">
+      <h1>Habilidades</h1>
+
+      <div class="habilidades-tecnologias">
+        <div class="HTML">HTML</div>
+        <div class="css">CSS</div>
+        <div class="js">JavaScript</div>
+        <div class="sql">SQL</div>
+        <div class="python">Python</div>
+        <div class="git">Git</div>
+        <div class="figma">Figma</div>
+        <div class="react">React JS</div>
+        <div class="django">Node</div>
       </div>
 
-      <section class="formacao-extra">
-        <div class="cursos">
-          <h3>Cursos Intensivos</h3>
-          <ul>
-            <li>JavaScript Completo ES6<span>56h</span></li>
-            <li>Front end para iniciantes <span>106h</span></li>
-            <li>Python Completo <span>133h</span></li>
-          </ul>
-        </div>
-        <div class="idiomas">
-          <h3>Idiomas</h3>
-          <ul>
-            <li>Inglês <span>Intermediário</span></li>
-            <li>Espanhol <span>Intermediário</span></li>
-            <li>Português <span>Nativo / Fluente</span></li>
-          </ul>
-        </div>
-      </section>
+   
     </section>
 
-    <section id="projetos" class="projetos">
+
+    <section class="projetos" id="projetos">
       <h1>Projetos</h1>
 
-      <div class="descricao-projetos">
-        <p>Aqui estão alguns dos meus projetos. <span>↴</span></p>
-      </div>
+      <div class="projestos-info">
+        <div class="animais-fantasticos">
+          <p>Animais Fantásticos</p>
+          <img src="img/animais_fantasticos.jpeg" alt="animais-fantasticos" height="300">
 
-      <div class="vitrine-projetos dragscroll">
-        <div class="bikecraft">
-          <img src="projetos/imgs_projetos/bikecraft.jpeg" alt="" />
-
-          <a href="projetos/bikecraft-main/index.html" target="_blank">
-            <p>Bikcraft <span>⤴</span></p>
-          </a>
+          <a href="projetos/Animais-Fantasticos-main/index.html" target="_blank">Vizualizar</a>
         </div>
 
-        <div class="wildbeast">
-          <img src="projetos/imgs_projetos/wildbeast.jpeg" alt="" />
+        <div class="bikecraft">
+          <p>Bikecraft</p>
+          <img src="img/bikecraft.jpeg" alt="bikecraft" height="300">
 
-          <a href="projetos/WildBeast-main/index.html" target="_blank">
-            <p>WildBeast <span>⤴</span></p>
-          </a>
+          <a href="projetos/bikecraft-main/index.html" target="_blank">Vizualizar</a>
         </div>
 
         <div class="flexblog">
-          <img src="projetos/imgs_projetos/flexblog.jpeg" alt="" />
+          <p>FlexBlog</p>
+          <img src="img/flexblog.jpeg" alt="flexblog" height="300">
 
-          <a href="projetos/FlexBlog-main/index.html" target="_blank">
-            <p>FlexBlog <span>⤴</span></p>
-          </a>
+          <a href="projetos/FlexBlog-main/index.html" target="_blank">Vizualizar</a>
         </div>
 
-        <div class="animais_fantasticos">
-          <img src="projetos/imgs_projetos/animais_fantasticos.jpeg" alt="" />
+        <div class="wildbeast">
+          <p>WildBeast</p>
+          <img src="img/wildbeast.jpeg" alt="wildbeast " height="300">
 
-          <a
-            href="projetos/Animais-Fantasticos-main/index.html"
-            target="_blank"
-          >
-            <p>Animais Fantásticos <span>⤴</span></p>
-          </a>
+          <a href="projetos/WildBeast-main/index.html" target="_blank">Vizualizar</a>
         </div>
+
       </div>
 
-      <div class="ver-mais">
-        <a href="https://github.com/PabloVilasBoas10" target="_blank"
-          >VER MAIS <img src="" alt=""
-        /></a>
-      </div>
+    
+      <a class="ver-mais"  href="https://github.com/PabloVilasBoas10" target="_blank">Ver mais</a>
     </section>
 
-    <section id="contato" class="contato">
-      <h1>CONTATO</h1>
+    <section class="contato" id="contato">
+      <h1>Contato</h1>
 
-      <div class="contato-grid">
-        <section class="contato-descricao">
-          <p>
-            Estou disponível para novos projetos no momento. Entre em contato
-            comigo e marcamos uma conversa 👋
-          </p>
-        </section>
-        <section class="contato-redes">
-          <h3 class="redes-titulo">Redes Sociais</h3>
-          <div class="redes">
-            <div>
-              <a href="https://github.com/PabloVilasBoas10" target="_blank">
-                <!-- Github -->
-                <img src="img/icon-github.svg" alt="" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.instagram.com/pablo.boas/?next=%2F"
-                target="_blank"
-              >
-                <!-- Instagram -->
-                <img src="img/instagram.svg" alt="" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.linkedin.com/in/pablo-vilas-boas-508035210/"
-                target="_blank"
-              >
-                <!-- Linkedin -->
-                <img src="img/linkedin.svg" alt="" />
-              </a>
-            </div>
-            <div>
-              <a href="mailto:pablovilasboas02@gmail.com" target="_blank">
-                <!-- Gmail -->
-                <img src="img/gmail.svg" alt="" />
-              </a>
-            </div>
-          </div>
-        </section>
+    <div class="grid">
+     <div>
+      <div class="contato-descricao">
+        <p>Estou disponível para novos projetos no momento. <br> Entre em contato comigo e marcamos 
+          uma conversa 👋</p>
       </div>
-      <p class="redes-sociais">Redes sociais <img src="img/up.svg" alt="" /></p>
+      
+      <div class="redes">
+        <p>pablovilasboas02@gmail.com</p>
+
+        <nav>
+          <a href="https://www.linkedin.com/in/pablo-vilas-boas-508035210/"
+          target="_blank"> 
+            <img src="img/linkedin.png" alt="linkedin" />
+          </a>
+          
+          <a href="https://www.instagram.com/pablo.boas/?next=%2F"
+          target="_blank">
+            <img src="img/instagram.png" alt="instagram" />
+          </a>
+          
+          <a href="https://github.com/PabloVilasBoas10" target="_blank">
+             <img src="img/github.png" alt="github" />
+          </a>
+        </nav>
+
+    </div>
+     </div>
+        <div class="imagem">
+          <img src="img/telefone.png" alt="">
+        </div>
+      
+      </div>
+      
     </section>
 
     <footer>
-      <p>Copyright © 2023 Vilas. Todos os direitos reservados.</p>
+      <p>Criado por PABLO - 2023</p>
     </footer>
-
-    <script src="main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js"></script>
+    <!-- SCRIPT -->
+    <script src="js/main.js"></script>
   </body>
 </html>

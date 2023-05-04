@@ -1,0 +1,111 @@
+.contato {
+  background: #34344e;
+  padding: 20px 20px 0 20px;
+  max-width: 100%;
+}
+
+.contato .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+}
+
+.contato h1 {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 3.75rem;
+}
+
+.contato .contato-descricao {
+  display: block;
+  margin: 50px 0;
+}
+
+.contato-descricao p {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.redes p {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contato .redes nav {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.contato .redes nav img {
+  width: 40px;
+}
+
+.contato .imagem img {
+  height: 100%;
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+@media (max-width: 930px) {
+  .contato h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .contato h1 {
+    font-size: 2.5rem;
+  }
+
+  .contato .imagem img {
+    display: block;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .contato h1 {
+    margin: 20px auto;
+  }
+
+  .redes nav {
+    padding-bottom: 10px;
+  }
+
+  .contato .imagem img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contato .grid {
+    display: block;
+  }
+
+  .contato .imagem img {
+    display: none;
+  }
+
+  .contato .contato-descricao {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto 40px auto;
+  }
+
+  .contato .redes p {
+    font-size: 1.3rem;
+  }
+
+  .contato .redes nav {
+    justify-content: center;
+  }
+}

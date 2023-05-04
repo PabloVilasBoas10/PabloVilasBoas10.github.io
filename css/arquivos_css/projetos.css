@@ -1,0 +1,134 @@
+.projetos {
+  background: #566981;
+  padding: 20px;
+}
+
+.projetos h1 {
+  text-align: center;
+  font-size: 3.75rem;
+  color: #fff;
+}
+
+.projetos .projestos-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.projetos .projestos-info div {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.projetos .projestos-info div p {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projestos-info div a {
+  margin: 20px auto;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 4px solid #fff;
+}
+
+.projestos-info div a:hover {
+  transition: 0.3s;
+
+  background-color: #34344e;
+}
+
+.projetos .projestos-info div img {
+  border-radius: 10px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.projetos .ver-mais {
+  display: block;
+  background: #34344e;
+  /* grid-column: 1/-1; */
+  margin: 40px auto;
+  /* place-self: center; */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 40px;
+  max-width: 100px;
+  border: 4px solid #fff;
+  cursor: pointer;
+}
+
+.projetos .ver-mais:hover {
+  transition: 0.3s;
+  background-color: #566981;
+}
+
+@media (max-width: 930px) {
+  .projetos h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .projetos h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .projetos .projestos-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .projetos .projestos-info div img {
+    max-height: 150px;
+  }
+
+  .projestos-info div a {
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .projetos h1 {
+    margin: 20px auto;
+    font-size: 2.5rem;
+  }
+
+  .projetos .projestos-info {
+    display: flex;
+    overflow: auto;
+  }
+
+  .projetos .projestos-info div img {
+    max-width: 500px;
+    /* max-height: 100%; */
+  }
+
+  .projetos .projestos-info::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
+    padding-top: 20px;
+  }
+
+  .projetos .projestos-info::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+
+  .projetos .projestos-info::-webkit-scrollbar-thumb {
+    background-color: #34344e;
+    border-radius: 20px;
+  }
+}
