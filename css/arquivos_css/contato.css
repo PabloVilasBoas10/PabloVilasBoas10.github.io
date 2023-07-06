@@ -103,6 +103,7 @@
 
   .contato .redes p {
     font-size: 1.3rem;
+    display: block;
   }
 
   .contato .redes nav {
