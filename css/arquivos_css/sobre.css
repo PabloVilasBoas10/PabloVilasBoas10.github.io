@@ -42,7 +42,7 @@ main .sobre h1 {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 650px) {
   .inicio {
     display: block;
     max-width: 100%;
@@ -51,9 +51,5 @@ main .sobre h1 {
     display: block;
     margin: 20px auto;
     font-size: 2.5rem;
-  }
-
-  .sobre .descricao-sobre {
-    text-align: center;
   }
 }
