@@ -3,6 +3,10 @@
   padding: 20px;
 }
 
+.projetos .projestos-info .sistema_de_cadastro img {
+  width: 300px;
+}
+
 .projetos h1 {
   text-align: center;
   font-size: 3.75rem;
