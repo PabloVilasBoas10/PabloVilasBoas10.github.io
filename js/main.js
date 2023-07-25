@@ -41,10 +41,10 @@ function initScrollSuave() {
         })
 
         // Forma Alternativa
-        // window.scrollTo({
-        //     top: topo,
-        //     behavior: 'smooth',
-        // })
+        window.scrollTo({
+            top: topo,
+            behavior: 'smooth',
+        })
     }
 
     const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]')
