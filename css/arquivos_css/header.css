@@ -7,13 +7,15 @@
   justify-content: space-between;
   background: #566981;
   font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 4px 0 4px rgb(0, 0, 0);
 }
 
-#header p {
-  color: #ffff;
+#header p img {
+  width: 100%;
   margin-left: 15px;
-  font-size: 1.2rem;
-  /* align-items: end; */
   place-self: center;
 }
 
@@ -42,10 +44,6 @@
   display: none;
   color: #ffff;
   transition: 0.3s;
-}
-
-#btn-mobile:hover {
-  color: #566981;
 }
 
 @media (max-width: 600px) {
@@ -82,6 +80,11 @@
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
   }
+
+  #menu a:hover {
+    color: #ffff;
+  }
+
   #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;

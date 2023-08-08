@@ -80,5 +80,18 @@ function animacaoScroll() {
 
 }
 
-
 animacaoScroll()
+
+function typeWrite(elemento) {
+    const textoArray = elemento.innerText.split('');
+    elemento.innerText = '';
+    textoArray.forEach(function (letra, i) {
+
+        setTimeout(function () {
+            elemento.innerText += letra;
+        }, 75 * i)
+
+    });
+}
+const titulo = document.querySelector('.informacoes-inicio p');
+typeWrite(titulo);
