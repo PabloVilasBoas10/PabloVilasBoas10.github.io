@@ -71,22 +71,14 @@
   }
 }
 
-@media (max-width: 650px) {
-  .contato h1 {
-    margin: 20px auto;
+@media (max-width: 670px) {
+  .contato {
+    padding: 20px 0 0 10px;
   }
 
   .redes nav {
     padding-bottom: 10px;
   }
-
-  .contato .imagem img {
-    display: block;
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
   .contato .grid {
     display: block;
   }

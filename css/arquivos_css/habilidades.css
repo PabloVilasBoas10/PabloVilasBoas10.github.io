@@ -77,12 +77,15 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   .habilidades .habilidades-tecnologias {
     max-width: 100%;
   }
   .habilidades .habilidades-tecnologias div {
     font-size: 0.8rem;
-    width: 20%;
+  }
+
+  .habilidades .habilidades-tecnologias div {
+    width: 30%;
   }
 }
