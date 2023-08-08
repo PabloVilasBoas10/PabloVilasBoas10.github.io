@@ -92,6 +92,8 @@ function typeWrite(elemento) {
         }, 75 * i)
 
     });
+
+    alert(12)
 }
 const titulo = document.querySelector('.informacoes-inicio p');
 typeWrite(titulo);
