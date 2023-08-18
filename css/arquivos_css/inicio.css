@@ -59,6 +59,16 @@
 .inicio .joia {
   width: 70%;
   /* left: 200px; */
+  animation: animacao 1s infinite alternate;
+}
+
+@keyframes animacao {
+  from {
+    transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 .inicio .joia img {
