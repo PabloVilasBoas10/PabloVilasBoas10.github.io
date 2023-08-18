@@ -14,7 +14,7 @@
 }
 
 .habilidades .habilidades-tecnologias {
-  max-width: 80%;
+  /* max-width: 80%; */
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -60,10 +60,6 @@
     flex-wrap: wrap;
     transition: 0;
   }
-
-  .habilidades .habilidades-tecnologias div {
-    width: 30%;
-  }
 }
 
 @media (max-width: 650px) {
@@ -80,9 +76,5 @@
   }
   .habilidades .habilidades-tecnologias div {
     font-size: 0.8rem;
-  }
-
-  .habilidades .habilidades-tecnologias div {
-    width: 30%;
   }
 }
