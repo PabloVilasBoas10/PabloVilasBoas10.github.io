@@ -14,7 +14,7 @@
 }
 
 .habilidades .habilidades-tecnologias {
-  /* max-width: 80%; */
+  max-width: 80%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -48,14 +48,22 @@
   }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 900px) {
+  .habilidades .habilidades-tecnologias img {
+    max-width: 70%;
+  }
   .habilidades h1 {
     font-size: 2.5rem;
   }
 }
 
 @media (max-width: 770px) {
+  .habilidades .habilidades-tecnologias img {
+    max-width: 60%;
+  }
   .habilidades .habilidades-tecnologias {
+    max-width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     transition: 0;
@@ -63,6 +71,9 @@
 }
 
 @media (max-width: 650px) {
+  .habilidades .habilidades-tecnologias img {
+    max-width: 70%;
+  }
   .habilidades h1 {
     display: block;
     margin: 20px auto;
@@ -71,8 +82,8 @@
 }
 
 @media (max-width: 500px) {
-  .habilidades .habilidades-tecnologias {
-    max-width: 100%;
+  .habilidades .habilidades-tecnologias img {
+    max-width: 60%;
   }
   .habilidades .habilidades-tecnologias div {
     font-size: 0.8rem;
