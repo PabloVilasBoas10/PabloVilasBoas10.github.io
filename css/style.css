@@ -5,12 +5,13 @@
 @import "arquivos_css/projetos.css";
 @import "arquivos_css/contato.css";
 @import "arquivos_css/footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: monospace, Arial, Helvetica, sans-serif;
-  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .js-scroll {

@@ -104,3 +104,5 @@ habilidades.forEach(item => {
         item.setAttribute('title', nomeClass.toUpperCase())
     })
 })
+
+
