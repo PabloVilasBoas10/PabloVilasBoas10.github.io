@@ -12,12 +12,13 @@ main .sobre h1 {
 }
 
 .sobre .descricao-sobre {
-  margin: 40px auto;
-  max-width: 40ch;
+  margin: 60px 20px 30px 20px;
+  max-width: 90%;
   line-height: 1.2;
   color: #fff;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.7rem;
+  /* font-weight: bold; */
+  font-style: italic;
 }
 
 .sobre .descricao-sobre p div {

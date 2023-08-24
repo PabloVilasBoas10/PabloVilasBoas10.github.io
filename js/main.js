@@ -57,7 +57,6 @@ initScrollSuave()
 
 
 const sections = document.querySelectorAll('.js-scroll');
-console.log(sections)
 
 function animacaoScroll() {
     if (sections.length) {
@@ -96,3 +95,12 @@ function typeWrite(elemento) {
 }
 const titulo = document.querySelector('.informacoes-inicio p');
 typeWrite(titulo);
+
+
+const habilidades = document.querySelectorAll('.habilidades-tecnologias div')
+habilidades.forEach(item => {
+    const nomeClass = item.className
+    item.addEventListener('mouseover', () => {
+        item.setAttribute('title', nomeClass.toUpperCase())
+    })
+})

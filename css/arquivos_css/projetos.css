@@ -125,6 +125,7 @@
 
   .projetos .projestos-info::-webkit-scrollbar-track {
     background: #1e1e1e;
+    border-radius: 50px;
   }
 
   .projetos .projestos-info::-webkit-scrollbar-thumb {
