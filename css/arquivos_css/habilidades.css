@@ -13,6 +13,17 @@
   font-size: 3.75rem;
 }
 
+.habilidades .habilidades-tecnologias div {
+  border: 2px solid;
+  border-image: linear-gradient(#566981, #34344e) 1;
+  border-radius: 10px 10px 0 0;
+}
+
+.habilidades .habilidades-tecnologias div span {
+  display: block;
+  color: #fff;
+}
+
 .habilidades .habilidades-tecnologias {
   max-width: 80%;
   margin: auto;
