@@ -19,9 +19,15 @@
   border-radius: 10px 10px 0 0;
 }
 
+.habilidades .habilidades-tecnologias div img {
+  margin-top: 10px;
+}
+
 .habilidades .habilidades-tecnologias div span {
   display: block;
   color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .habilidades .habilidades-tecnologias {
