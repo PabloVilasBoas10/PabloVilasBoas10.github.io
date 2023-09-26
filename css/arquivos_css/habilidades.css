@@ -42,16 +42,6 @@
   justify-items: center;
   cursor: pointer;
   transition: 0.3s;
-  animation: animacao 1s infinite alternate;
-}
-
-@keyframes animacao {
-  from {
-    transform: translateY(5px);
-  }
-  to {
-    transform: translateY(0);
-  }
 }
 
 .habilidades .habilidades-tecnologias div {
