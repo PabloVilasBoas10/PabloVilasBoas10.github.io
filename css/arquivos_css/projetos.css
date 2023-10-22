@@ -49,6 +49,8 @@
   border-radius: 10px;
   max-height: 200px;
   max-width: 100%;
+  width: 80%;
+  object-fit: cover;
 }
 
 .projetos .ver-mais {
@@ -106,7 +108,12 @@
     margin: 20px auto;
     font-size: 2.5rem;
   }
-
+  .projetos .projestos-info div img {
+    max-height: 200px;
+    max-width: 100%;
+    width: 320px;
+    /* object-fit: cover; */
+  }
   .projetos .projestos-info {
     display: flex;
     overflow: auto;
